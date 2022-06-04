@@ -11,6 +11,8 @@ class CirclePacking : PApplet() {
             val art = CirclePacking()
             art.setSize(SIZE, SIZE)
             art.runSketch()
+            art.updatePixels()
+            art.saveFrame("out.jpg")
         }
     }
 
